@@ -26,7 +26,7 @@ func BuildCourseWelcome(courseName string) string {
 // "Урок 1: {lessonName}"
 func BuildLessonTitle(lessonName string) string {
 	// TODO: реализуйте функцию через fmt.Sprintf.
-	return fmt.Sprintf("Урок 1:  %s", lessonName)
+	return fmt.Sprintf("Урок 1: %s", lessonName)
 }
 
 // BuildRepositoryPath возвращает путь до репозитория на GitHub.
